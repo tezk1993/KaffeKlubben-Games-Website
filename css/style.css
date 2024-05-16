@@ -79,8 +79,10 @@ header {
 }
 
 nav{
+    
     justify-self: end;
     margin-left: auto;
+
 }
 
 nav ul{
@@ -121,31 +123,31 @@ nav a {
 
 
 #game{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    justify-items: center;
-    gap: 20px 10px;
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .showcases{
     text-align: center;
     padding: 2rem;
+    flex: 1;
+
 }
 .showcases img{
     border-radius: 24px;
 }
 
 #team{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    flex-shrink: 2;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .profile{
     text-align: center;
     padding: 2rem;
+    flex: 1;
 }
 .profile img{
     width: 20rem;
