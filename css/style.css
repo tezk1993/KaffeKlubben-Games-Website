@@ -1,0 +1,151 @@
+@font-face {
+    font-family: "Steelfish - regular";
+    src: url('/fonts/steelfishrg.otf') format('otf');
+}
+@font-face {
+    font-family: "Steelfish - bold";
+    src: url('/fonts/steelfishbd.otf') format('otf');
+}
+
+html {
+    font-family: "Steelfish - regular", sans-serif;
+    font-size: 16px;
+}
+.content {  
+    position: relative;
+    top: 2rem; /* To offset for fixed header. */
+  }
+body{
+    font-family: "Chivo",sans-serif;
+    margin:  0 10%;
+    background-color:#2E2618;
+}
+h1{
+    color:#FFDE59;
+
+    font-size: 4rem;
+    font-weight: 700;
+    font-family: "Steelfish - regular",sans-serif;
+}
+h2{
+    color:#FFDE59;
+
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Steelfish - regular",sans-serif;
+}
+h3{
+    color:#FFDE59;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: "Steelfish - regular",sans-serif;
+}
+
+p{
+    font-family: "Chivo",sans-serif;
+
+    color: whitesmoke;
+}
+.container{
+    border: 2px solid black;
+    padding:  10px;
+    margin: 10px auto;
+}
+
+a{
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+
+/* Header*/
+
+header {
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 4px #748386;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.title{
+    padding-left: 1rem;
+}
+.logo{
+    width: 4rem;
+    height: 4rem;
+}
+
+nav{
+    justify-self: end;
+    margin-left: auto;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+}
+nav li{
+    padding-left: 3.5rem;
+
+}
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 2rem;
+}
+
+/* Content */
+
+.content{
+    padding: 4rem auto;
+}
+
+.content h2{
+    text-align: center;
+}
+
+.section{
+    padding: 2rem;
+}
+
+#mission{
+    text-align: center;
+}
+
+
+#game{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: center;
+    gap: 20px 10px;
+}
+
+.showcases{
+    text-align: center;
+}
+
+#team{
+    display: flex;
+}
+
+.profile{
+    text-align: center;
+    padding: 2rem;
+}
+.profile img{
+    width: 20rem;
+    height: 20rem;
+    border-radius: 300px;
+}
+
+
+footer{
+    padding: 1.5rem 2rem;
+    display: flex;
+    font-size: .75rem;
+    flex-grow: 1;
+}

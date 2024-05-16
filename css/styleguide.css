@@ -1,0 +1,100 @@
+@font-face {
+    font-family: "Steelfish - regular";
+    src: url('/fonts/steelfishrg.otf') format('otf');
+}
+@font-face {
+    font-family: "Steelfish - bold";
+    src: url('/fonts/steelfishbd.otf') format('otf');
+}
+body{
+    font-family: "Chivo",sans-serif;
+    margin:  0 10%;
+}
+h1{
+    font-size: 26px;
+    font-weight: 700;
+    font-family: "Steelfish - regular",sans-serif;
+}
+.container{
+    border: 2px solid black;
+    padding:  10px;
+    margin: 10px auto;
+
+}
+
+
+.color_panel{
+    padding: 5px;
+    margin: 20px auto;
+    display: inline-block;
+    min-height: 100px;
+    width: 32%;
+    text-align: center;
+}
+
+.color_examples_containers{
+    padding: 15px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.mustard{
+    background-color: #FFDE59;
+    color: #242423;
+
+}
+.caput-mortuum{
+    background-color: #58372E;
+    color: #fdfffc;
+}
+
+.bistro{
+    background-color: #2E2618;
+    color: #242423;
+
+}
+
+.caribbean-current{
+    background-color: #026C7C;
+    color: #fdfffc;
+}
+
+.slate-gray{
+    background-color: #748386;
+    color: #242423;
+
+}
+/* Font CSS */
+.font_panel{
+    width: 45%;
+    display: inline-block;
+}
+
+.font_label{
+    font-size: 20px;
+    text-decoration: underline;
+}
+.regular{
+    font-style: normal;
+}
+.bold{
+    font-weight: 700;
+}
+
+.italic{
+ font-style: italic;
+}
+
+.expletus{
+    font-family: "Expletus Sand",sans-serif;
+}
+.steelfish{
+    font-family: "Steelfish - regular",sans-serif;
+}
+.chivo{
+    font-family: "Chivo",sans-serif;
+}
+
+/* Text styles*/
+
+
