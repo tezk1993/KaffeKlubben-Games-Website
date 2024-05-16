@@ -110,6 +110,9 @@ nav a {
 
 .section{
     padding: 2rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 #mission{
@@ -122,14 +125,22 @@ nav a {
     grid-template-columns: 1fr 1fr ;
     justify-items: center;
     gap: 20px 10px;
+
 }
 
 .showcases{
     text-align: center;
+    padding: 2rem;
+}
+.showcases img{
+    border-radius: 24px;
 }
 
 #team{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-shrink: 2;
+    width: 100%;
 }
 
 .profile{
