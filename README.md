@@ -4,7 +4,7 @@ This is the official **Homepage for Escapen't**, a thrilling escape room game! T
 
 ## 🚀 Demo
 
-Check out the live version of the Escapen't homepage [here](#).
+Check out the live version of the Escapen't homepage [here](https://tezk1993.github.io/KaffeKlubben-Games-Website/).
 
 ## Features
 
